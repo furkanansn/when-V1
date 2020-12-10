@@ -1,0 +1,99 @@
+name: when
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# Read more about versioning at semver.org.
+version: 1.0.0+10
+
+environment:
+  sdk: ">=2.2.2-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  webview_flutter: ^0.3.14+1
+  fluttertoast: ^3.1.0
+  http: ^0.12.1
+  shared_preferences: ^0.5.8
+  provider: ^3.0.0+1
+  path_provider: 1.6.1
+  get_it: ^1.0.3+1
+  url_launcher: ^5.5.0
+  image_picker: ^0.6.7+4
+  package_info: ^0.4.0+13
+  introduction_screen: ^1.0.9
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.7.5
+  circular_profile_avatar: ^1.0.6
+
+flutter_icons:
+  image_path: "images/20.png"
+  android: true
+  ios: true
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  
+  # To add assets to your application, add an assets section, like this:
+  assets:
+   - images/w.png
+   - images/ws.png
+   - images/try33.jpg
+   - images/detail.jpeg
+   - images/discover.jpeg
+   - images/wsn.png
+   - images/hause.jpeg
+
+  # or to include all assets from a directory do this:
+  # assets:
+  #   - assets/images/
+  
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+  #  assets:
+  #  - assets/images/
+  
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: assets/fonts/Schyler-Regular.ttf
+  #       - asset: assets/fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: assets/fonts/TrajanPro.ttf
+  #       - asset: assets/fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages
+  fonts:
+    - family: .SF NS
+      fonts:
+        - asset: assets/fonts/Times.ttc
+    - family: Helvetica Neue
+      fonts:
+        - asset: assets/fonts/HelveticaNeue.ttc
+    - family: Hiragino Maru Gothic ProN
+      fonts:
+        - asset: assets/fonts/ヒラギノ丸ゴ ProN W4.ttc
